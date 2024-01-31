@@ -26,7 +26,7 @@ It works by sending a Wake-on-Lan magic packet to PCs in your house. The board w
 ### Installing
 
 * Clone the code into Visual Studio Code. 
-* In Visual Studio Code, PlatformIO will automatically install drivers for the board and library dependencies. If using another IDE, please install them manually.
+* PlatformIO will automatically install drivers for the board and library dependencies. If using another IDE, please install them manually.
 * Paste your 2.4Ghz Wi-Fi SSID, Wi-Fi Password, Telegram Bot Token from Botfather, [Your Telegram Chat ID](https://www.alphr.com/find-chat-id-telegram/) and your [PC(s) MAC Address(es)](https://oit.ua.edu/article/finding-your-mac-address/#:~:text=Alternatively%2C%20press%20the%20Windows%20Key,Fi%20next%20to%20Physical%20Address.) in this part of the code in main.cpp:
 
 ```
@@ -44,7 +44,7 @@ const char* password = "Password";
 ### Usage
 
 * With the LoLin32 Lite powered on, send a ```/start``` command to your Telegram bot. This will bring up the menu on what you can do with the bot:
-* With your PC turned off and WoL feauture enabled in the motherboard, send  ```/wol```,```/wol2``` or ```/wol3``` to turn on whichever PC you want.  
+* With your PC turned off and WoL feature enabled in the motherboard, send  ```/wol```,```/wol2``` or ```/wol3``` to turn on whichever PC you want.  
 
 ## Acknowledgments
 
