@@ -1,5 +1,3 @@
-![License](https://img.shields.io/pypi/l/django-markdownify?color=brightgreen)
-
 <div align="center"> 
   
 # WoL Telegram Bot for LoLin32 Lite
